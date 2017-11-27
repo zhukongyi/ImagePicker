@@ -69,6 +69,13 @@ window.imagePicker.getPictures(
 
 The plugin returns images that are stored in a temporary directory.  These images will often not be deleted automatically though.  The files should be moved or deleted after you get their filepaths in javascript.
 
+in /platforms/android/project.properties remove all other com.android.support:support and com.android.support:appcompat and leave the latest ones. as:
+
+```
+cordova.system.library.9=com.android.support:support-v13:26.+
+cordova.system.library.7=com.android.support:appcompat-v7:26.+
+```
+
 ## Libraries used
 
 #### ELCImagePicker
