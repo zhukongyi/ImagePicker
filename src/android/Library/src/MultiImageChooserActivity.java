@@ -197,7 +197,7 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
         if (maxImages == 0 && isChecked) {
             isChecked = false;
             new AlertDialog.Builder(this)
-                    .setTitle("您只能选择 " + maxImageCount + " 张照片")
+                    .setTitle("您只能选择 " + maxImageCount + " 张照片") 
                     .setMessage("您一次最多只能选择 " + maxImageCount + " 张照片")
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
