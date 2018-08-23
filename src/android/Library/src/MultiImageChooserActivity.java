@@ -197,9 +197,9 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
         if (maxImages == 0 && isChecked) {
             isChecked = false;
             new AlertDialog.Builder(this)
-                    .setTitle("ÄúÖ»ÄÜÑ¡Ôñ " + maxImageCount + " ÕÅÕÕÆ¬") 
-                    .setMessage("ÄúÒ»´Î×î¶àÖ»ÄÜÑ¡Ôñ " + maxImageCount + " ÕÅÕÕÆ¬")
-                    .setPositiveButton("È·¶¨", new DialogInterface.OnClickListener() {
+                    .setTitle("æ‚¨åªèƒ½é€‰æ‹© " + maxImageCount + " å¼ ç…§ç‰‡") 
+                    .setMessage("æ‚¨ä¸€æ¬¡æœ€å¤šåªèƒ½é€‰æ‹© " + maxImageCount + " å¼ ç…§ç‰‡")
+                    .setPositiveButton("ç¡®å®š", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.cancel();
                         }
